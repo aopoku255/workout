@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'package:fitnesscenter/components/Button.dart';
 import 'package:fitnesscenter/screens/Home/index.dart';
 import 'package:fitnesscenter/screens/signup.dart';

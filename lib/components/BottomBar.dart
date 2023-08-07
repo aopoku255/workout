@@ -16,14 +16,14 @@ class _BottomBarState extends State<BottomBar> {
     return BottomAppBar(
       // elevation: 5,
       shadowColor: Colors.black,
-      color: Colors.white,
+      color: Colors.black45,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           IconButton(
             icon: Image.asset(
               "assets/icons/home.png",
-              color: Colors.red,
+              color: Colors.white,
               height: 30,
             ),
             onPressed: () {
@@ -33,7 +33,7 @@ class _BottomBarState extends State<BottomBar> {
           IconButton(
             icon: Image.asset(
               "assets/icons/workouts.png",
-              color: Colors.red,
+              color: Colors.white,
               height: 30,
             ),
             onPressed: () {
@@ -43,7 +43,7 @@ class _BottomBarState extends State<BottomBar> {
           IconButton(
             icon: Image.asset(
               "assets/icons/settings.png",
-              color: Colors.red,
+              color: Colors.white,
               height: 30,
             ),
             onPressed: () {},
